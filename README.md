@@ -28,7 +28,7 @@ To run this project locally, follow these steps:
 1.  Clone the repository:
 
     ```bash
-    git clone 
+    git clone https://github.com/Makc240305/Weather-App.git
     ```
 
 2.  Navigate to the project directory:
@@ -63,7 +63,7 @@ If the user enters an invalid city name or the API request fails, an error messa
 
 ## Live Demo
 
-Check out the live demo of the project: 
+Check out the live demo of the project: https://github.com/Makc240305/Weather-App.git
 
 ## Contributing
 
