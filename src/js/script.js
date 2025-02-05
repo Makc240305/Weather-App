@@ -9,7 +9,7 @@ async function checkWeather(city) {
   try {
     const response = await fetch(API_URL + city + "&appid=" + API_KEY);
 
-    if (!response.ok) throw new Error(`HTTP помилка: ${response.status}`);
+    if (!response.ok) throw new Error(`HTTP error: ${response.status}`);
     const data = await response.json();
 
     document.querySelector(".weather").classList.remove("hidden");
@@ -40,10 +40,10 @@ function hideLoader() {
 }
 
 function showError() {
-  document.querySelector(".eror").classList.add("show");
+  document.querySelector(".error").classList.add("show");
 }
 function hideError() {
-  document.querySelector(".eror").classList.remove("show");
+  document.querySelector(".error").classList.remove("show");
 }
 
 function changeWeather(data) {
@@ -78,7 +78,7 @@ function changeIcon(data) {
       break;
 
     case "Clear":
-      weatherIcon.setAttribute("src", "img/sun.png");
+      weatherIcon.setAttribute("src", "img/Sun.png");
       weatherIcon.setAttribute("alt", "Sun");
       break;
 
