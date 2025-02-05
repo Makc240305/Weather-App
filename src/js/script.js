@@ -68,13 +68,13 @@ iconGeo.addEventListener("click", () => {
 });
 
 const weatherIcons = {
-  Clouds: "img/Sun Cloud.png",
-  Clear: "img/Sun.png",
-  Snow: "img/Snow Cloud.png",
-  Rain: "img/Rain Cloud.png",
-  Drizzle: "img/Rain Cloud.png",
-  Thunderstorm: "img/Thunder Cloud.png",
-  default: "img/Sun Cloud.png",
+  Clouds: "/public/img/Sun Cloud.png",
+  Clear: "/public/img/Sun.png",
+  Snow: "/public/img/Snow Cloud.png",
+  Rain: "/public/img/Rain Cloud.png",
+  Drizzle: "/public/img/Rain Cloud.png",
+  Thunderstorm: "public/img/Thunder Cloud.png",
+  default: "/public/img/Sun Cloud.png",
 };
 
 function changeIcon(data) {
