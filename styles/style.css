@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  display: flex;
+  font-family: "Poppins", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(238, 238, 238, 0.9333333333);
+  align-items: center;
+  justify-content: center;
+  height: 100svh;
+  text-align: center;
+}
+
+.container {
+  background: rgba(209, 247, 255, 0.39);
+  box-shadow: 0 4px 30px rgba(49, 169, 255, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+.search-box img {
+  width: 20px;
+  height: auto;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  padding: 6px;
+  background-color: rgba(238, 238, 238, 0.9333333333);
+  transition: all 0.1s ease-in-out;
+}
+.search-box img:active {
+  background-color: rgba(54, 54, 54, 0.8235294118);
+}
+.search-box input {
+  margin: 0;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 0;
+  width: 100%;
+}
+.search-box input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.weather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+.weather img {
+  width: 7rem;
+  height: auto;
+}
+.weather h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.weather h2 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.details div {
+  background: rgba(255, 255, 255, 0.39);
+  box-shadow: 0 4px 30px rgba(49, 169, 255, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 12px;
+  padding: 1rem;
+  transition: all 0.3s ease-in-out;
+  cursor: default;
+}
+.details div:hover {
+  background: rgba(96, 220, 255, 0.39);
+  transform: scale(1.1);
+}
+.details div p:first-of-type {
+  font-size: 1.5rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.eror {
+  color: red;
+  font-weight: bold;
+  position: absolute;
+  top: 65px;
+  text-decoration: underline;
+  display: none;
+}
+.eror.show {
+  display: block;
+}
+
+.loader {
+  position: absolute;
+  top: 20px;
+  margin-top: 1rem;
+}/*# sourceMappingURL=style.css.map */
