@@ -1,0 +1,28 @@
+{
+  "name": "weather-app-js-native",
+  "version": "1.0.0",
+  "description": "A simple and responsive weather application built with vanilla JavaScript, HTML, and SCSS, fetching real-time weather data from the OpenWeatherMap API.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel public/index.html",
+    "build": "parcel build public/index.html",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Makc240305/Weather-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Makc240305/Weather-App/issues"
+  },
+  "homepage": "https://github.com/Makc240305/Weather-App#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.13.3",
+    "parcel-reporter-static-files-copy": "^1.5.3",
+    "sass": "^1.83.4"
+  }
+}
