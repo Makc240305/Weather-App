@@ -1,0 +1,131 @@
+@import "https://fonts.googleapis.com/css2?family=Liter&display=swap";
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background-color: #eeee;
+  justify-content: center;
+  align-items: center;
+  height: 100svh;
+  font-family: Liter, serif;
+  display: flex;
+}
+
+.container {
+  -webkit-backdrop-filter: blur(5px);
+  background: #d1f7ff63;
+  border-radius: 12px;
+  flex-direction: column;
+  place-items: center;
+  padding: 1rem;
+  display: flex;
+  box-shadow: 0 4px 30px #31a9ff1a;
+}
+
+.search-box {
+  background-color: #fff;
+  border-radius: .5rem;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.search-box img {
+  background-color: #eeee;
+  border-top-left-radius: .5rem;
+  border-bottom-left-radius: .5rem;
+  width: 20px;
+  height: auto;
+  padding: 6px;
+  transition: all .1s ease-in-out;
+}
+
+.search-box img:active {
+  background-color: #363636d2;
+}
+
+.search-box input {
+  border: 0;
+  border-radius: 8px;
+  width: 100%;
+  margin: 0;
+  padding: .5rem;
+}
+
+.search-box input:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.weather {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem;
+  display: flex;
+}
+
+.weather img {
+  width: 7rem;
+  height: auto;
+}
+
+.weather h1 {
+  margin-bottom: 1rem;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.weather h2 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.details {
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  display: grid;
+}
+
+.details div {
+  -webkit-backdrop-filter: blur(5px);
+  cursor: default;
+  background: #ffffff63;
+  border-radius: 12px;
+  padding: 1rem;
+  transition: all .3s ease-in-out;
+  box-shadow: 0 4px 30px #31a9ff1a;
+}
+
+.details div:hover {
+  background: #60dcff63;
+  transform: scale(1.1);
+}
+
+.details div p:first-of-type {
+  font-size: 1.5rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  text-decoration: underline;
+  display: none;
+  position: absolute;
+  top: 65px;
+}
+
+.error.show {
+  display: block;
+}
+
+.loader {
+  margin-top: 1rem;
+  position: absolute;
+  top: 100px;
+}
+/*# sourceMappingURL=index.48a4e4f6.css.map */
