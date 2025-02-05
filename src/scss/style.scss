@@ -110,7 +110,7 @@ body {
 .hidden{
     display: none;
 }
-.eror{
+.error{
     color: red;
     font-weight: bold;
     position: absolute;
@@ -124,6 +124,6 @@ body {
 }
 .loader{
     position: absolute;
-    top: 20px;
+    top:100px;
     margin-top: 1rem;
 }

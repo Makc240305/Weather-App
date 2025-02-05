@@ -103,7 +103,7 @@ body {
   display: none;
 }
 
-.eror {
+.error {
   color: red;
   font-weight: bold;
   position: absolute;
@@ -111,12 +111,12 @@ body {
   text-decoration: underline;
   display: none;
 }
-.eror.show {
+.error.show {
   display: block;
 }
 
 .loader {
   position: absolute;
-  top: 20px;
+  top: 100px;
   margin-top: 1rem;
 }/*# sourceMappingURL=style.css.map */
